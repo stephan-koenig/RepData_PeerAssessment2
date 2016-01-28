@@ -17,13 +17,13 @@ The data for this assignment come in the form of a comma-separated-value file
 compressed via the bzip2 algorithm to reduce its size. You can download the file
 from the course web site:
 
-[Storm Data][1] [47Mb]
+* [Storm Data][1] [47Mb]
 
 There is also some documentation of the database available. Here you will find
 how some of the variables are constructed/defined.
 
-National Weather Service [Storm Data Documentation][2]
-National Climatic Data Center Storm Events [FAQ][3]
+* National Weather Service [Storm Data Documentation][2]
+* National Climatic Data Center Storm Events [FAQ][3]
 
 The events in the database start in the year 1950 and end in November 2011. In
 the earlier years of the database there are generally fewer events recorded,
