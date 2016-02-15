@@ -134,7 +134,8 @@ At this point EVTYPE still contains almost 500 different levels.
 These levels are converted to one of the 48 event classes
 listed in National Weather Service
 [Storm Data Documentation](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2
-_doc%2Fpd01016005curr.pdf) or "Other" if no match could be identified.
+_doc%2Fpd01016005curr.pdf) or "Other" if no match could be identified (please
+see [eventNames.R](https://github.com/stephan-koenig/RepData_PeerAssessment2/blob/master/eventNames.R) for the conversion list).
 
 
 ```r

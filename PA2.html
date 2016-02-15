@@ -149,7 +149,7 @@ procStormData &lt;- mutate(procStormData,
 </div>
 <div id="consolidation-of-events" class="section level3">
 <h3>Consolidation of events</h3>
-<p>At this point EVTYPE still contains almost 500 different levels. These levels are converted to one of the 48 event classes listed in National Weather Service <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2%20_doc%2Fpd01016005curr.pdf">Storm Data Documentation</a> or “Other” if no match could be identified.</p>
+<p>At this point EVTYPE still contains almost 500 different levels. These levels are converted to one of the 48 event classes listed in National Weather Service <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2%20_doc%2Fpd01016005curr.pdf">Storm Data Documentation</a> or “Other” if no match could be identified (please see <a href="https://github.com/stephan-koenig/RepData_PeerAssessment2/blob/master/eventNames.R">eventNames.R</a> for the conversion list).</p>
 <pre class="r"><code># Correct EVTYPE by convertig all levels to uppercase to reduce number.
 procStormData &lt;- mutate(procStormData,
                         EVTYPE = as.factor(toupper(as.character(EVTYPE))))</code></pre>
