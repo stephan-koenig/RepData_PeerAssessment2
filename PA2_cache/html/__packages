@@ -2,3 +2,5 @@ base
 dplyr
 ggplot2
 lubridate
+knitr
+tidyr
